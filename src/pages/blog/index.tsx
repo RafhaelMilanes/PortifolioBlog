@@ -84,7 +84,7 @@ const Index = ({ posts = [], preview }) => {
                 <div className="authors">By: {post.Authors.join(' ')}</div>
               )}
               {post.Date && (
-                <div className="posted">Posted: {getDateStr(post.Date)}</div>
+                <div className="posted">Poste: {getDateStr(post.Date)}</div>
               )}
               <p>
                 {(!post.preview || post.preview.length === 0) &&
