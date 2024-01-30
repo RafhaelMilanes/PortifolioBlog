@@ -14,17 +14,8 @@ export default function Index() {
           width="250"
           alt="Vercel + Notion"
         />
-        <h1>My Notion Blog</h1>
-        <h2>
-          Blazing Fast Notion Blog with Next.js'{' '}
-          <ExtLink
-            href="https://github.com/vercel/next.js/issues/9524"
-            className="dotted"
-            style={{ color: 'inherit' }}
-          >
-            SSG
-          </ExtLink>
-        </h2>
+        <h1>Unindo design, código, criando projetos únicos.</h1>
+        <h2>Front-end Developer</h2>
 
         <Features />
 

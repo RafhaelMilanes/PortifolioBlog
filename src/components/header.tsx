@@ -30,6 +30,7 @@ const Header = ({ titlePre = '' }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
+
       <ul>
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
@@ -45,6 +46,7 @@ const Header = ({ titlePre = '' }) => {
           </li>
         ))}
       </ul>
+      <hr />
     </header>
   )
 }
